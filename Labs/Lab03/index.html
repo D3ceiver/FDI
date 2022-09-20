@@ -1,12 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" type="text/css" href="style/styles.css">
+        <script type="text/javascript" src="js/myScript.js"></script>
+    </head>
+    <body>
+        <h1>Como soldar con estaño</h1>
+
+        <!-- Lista materiales para soldar -->
+        <h2>Materiales necesarios</h2>
+        <ul>
+            <li>Cautin.</li>
+            <li>Estación de soldado (opcional).</li>
+            <li>Estaño.</li>
+            <li>Algo para limpiar el cautin (ensponja o fibra metalica).</li>
+            <li>Resina/paste flux (solo necesaria sí el estaño no cuenta con ella).</li>
+            <li>Bomba desoldadora o mecha de soldadura (opcional).</li>
+            <li>Componente a soldar.</li>
+            <li>Helping hand aka "<i>El Alacran</i>" (opcional).</li>
+        </ul>
+
+        <!-- galeria de imagenes codigo obtenido de https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp-->
+        <!-- Container for the image gallery -->
+        <div class="container">
+        
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+                <div class="numbertext">1 / 8</div>
+                <img src="img/alacran.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">2 / 8</div>
+                <img src="img/cautin.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">3 / 8</div>
+                <img src="img/componentes.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">4 / 8</div>
+                <img src="img/estano.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">5 / 8</div>
+                <img src="img/fibra.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">6 / 8</div>
+                <img src="img/flux.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">7 / 8</div>
+                <img src="img/fuente.jpeg" style="width:100%">
+            </div>
+            <div class="mySlides">
+                <div class="numbertext">8 / 8</div>
+                <img src="img/removedor.jpeg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+            
+            <!-- Thumbnail images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo cursor" src="img/alacran.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Helping hand aka Alacran">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/cautin.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cautin">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/componentes.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Componentes electrónicos">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/estano.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Estaño">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/fibra.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Fibra metálica">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/flux.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Resina/flux">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/fuente.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Estación de soldado">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/removedor.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Bomba desoldadora.">
+                </div>
+            </div>
+        </div>
+
+        <!-- Preparativos para soldar -->
+        <h2>Preparativos</h2>
+        <p>Previo a empezar a soldar debemos tener en consideración lo siguiente: </p>
+        <ol type="A">
+            <li>¿Soldaremos sobre una placa?</li>
+            <li>¿Soldaremos directo los componentes sin una placa?</li>
+            <li>¿Una mezcla de A y B?</li>
+        </ol>
+        
+        <p>Una vez escogido el método de como pondremos nuestros componentes, debemos presentarlos.</p>
+        <!-- Presentación componentes para soldar sin placa -->
+        <p>A continuación, mostraremos como se vería soldar dos componentes <b>sin</b> placa. Para esto, nos podemos ayudar con la helping hand.</p>
+        <!-- insterar imagen del fet y un led para ser soldados-->
+        <p>Ahora veremos como se verían unos componentes para soldar en una placa. Del mismo modo, nos podemos ayudar con una helping hand para esto.</p>
+        <!-- instertar imagen de un par de leds y unas resistencias en una placa -->
+        
+        <!-- Proceso para soldar -->
+        <h2>¿Listos? ¡A soldar!</h2>
+        <p>Lo primero que tenemos que conocer es la temperatura en la cual nuestra mezcla de estaño. Podemos tener una mezcla de estaño/bismuto (160-170 °C) o puede ser una mezcla de estaño/plomo (210-220 °C).</p>
+        <img src="img/estano_truper.jpg">
+        <p>En caso de tener una estación de soldadura, ponga la temperatura en la cual se derrite nuestro estaño.</p>
+        <p>Se recomienda estar revisando la temperatura del cautin utilizando un poco de estaño o en caso de usar uns fuente, que la misma indique que se encuentra en la temperatura.</p>
+        <!-- video revisión temperatura -->
+        <h3>POR NINGUN MOTIVO DEBE TOCAR LA PUNTA DEL CAUTIN DESDE QUE LO CONECTA HASTA MEDIA HORA DESPUES DE DESCONECTARLO.</h3>
+        <!-- video de seguridad -->
+
+
+    </body>
 </html>
