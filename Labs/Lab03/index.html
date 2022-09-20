@@ -28,7 +28,7 @@
                 codigo base obtenido de https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp cambios menores fueron hechos para acoplar las imagenes del laboratorio.
         -->
         <!-- Container for the image gallery -->
-        <div class="container">
+        <div class="container"> 
         
             <!-- Full-width images with number text -->
             <div class="mySlides">
@@ -74,28 +74,28 @@
             <!-- Thumbnail images -->
             <div class="row">
                 <div class="column">
-                    <img class="demo cursor" src="img/alacran.jpeg" style="width:100%" onclick="currentSlide(1)" alt="Helping hand aka Alacran">
+                    <img class="demo cursor" src="img/alacran.jpeg" style="width:50%" onclick="currentSlide(1)" alt="Helping hand aka Alacran">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/cautin.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cautín">
+                    <img class="demo cursor" src="img/cautin.jpeg" style="width:50%" onclick="currentSlide(2)" alt="Cautín">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/componentes.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Componentes electrónicos">
+                    <img class="demo cursor" src="img/componentes.jpeg" style="width:50%" onclick="currentSlide(3)" alt="Componentes electrónicos">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/estano.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Estaño">
+                    <img class="demo cursor" src="img/estano.jpeg" style="width:50%" onclick="currentSlide(4)" alt="Estaño">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/fibra.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Fibra metálica">
+                    <img class="demo cursor" src="img/fibra.jpeg" style="width:50%" onclick="currentSlide(5)" alt="Fibra metálica">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/flux.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Resina/flux">
+                    <img class="demo cursor" src="img/flux.jpeg" style="width:50%" onclick="currentSlide(6)" alt="Resina/flux">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/fuente.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Estación de soldado">
+                    <img class="demo cursor" src="img/fuente.jpeg" style="width:50%" onclick="currentSlide(6)" alt="Estación de soldado">
                 </div>
                 <div class="column">
-                    <img class="demo cursor" src="img/removedor.jpeg" style="width:100%" onclick="currentSlide(6)" alt="Bomba desoldadora.">
+                    <img class="demo cursor" src="img/removedor.jpeg" style="width:50%" onclick="currentSlide(6)" alt="Bomba desoldadora.">
                 </div>
             </div>
         </div>
@@ -108,14 +108,7 @@
             <li>¿Soldaremos directo los componentes sin una placa?</li>
             <li>¿Una mezcla de A y B?</li>
         </ol>
-        
-        <p>Una vez escogido el método de como pondremos nuestros componentes, debemos presentarlos.</p>
-        <!-- Presentación componentes para soldar sin placa -->
-        <p>A continuación, mostraremos como se vería soldar dos componentes <b>sin</b> placa. Para esto, nos podemos ayudar con la helping hand.</p>
-        <!-- insterar imagen del fet y un led para ser soldados-->
-        <p>Ahora veremos como se verían unos componentes para soldar en una placa. Del mismo modo, nos podemos ayudar con una helping hand para esto.</p>
-        <!-- instertar imagen de un par de leds y unas resistencias en una placa -->
-        
+               
         <!-- Proceso para soldar -->
         <h2>¿Listos? ¡A soldar!</h2>
         <p>Lo primero que tenemos que conocer es la temperatura en la cual nuestra mezcla de estaño. Podemos tener una mezcla de estaño/bismuto (160-170 °C) o puede ser una mezcla de estaño/plomo (210-220 °C).</p>
@@ -123,11 +116,65 @@
         <p>En caso de tener una estación de soldadura, ponga la temperatura en la cual se derrite nuestro estaño.</p>
         <p>Se recomienda estar revisando la temperatura del cautin utilizando un poco de estaño o en caso de usar uns fuente, que la misma indique que se encuentra en la temperatura.</p>
         <!-- video revisión temperatura -->
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/temperatura.mp4" type="video/mp4">
+        </video>
 
         <H3 class="disclaimer" id="'warning">PRECAUCION</H3>
         <h3 class="disclaimer">POR NINGUN MOTIVO debe tocar la parte metálica del cautín desde que lo conecta, hasta unos 10 minutos después que lo desconecta. El equipo funciona a muy altas temperaturas y se puede quemar.</h3>
         <!-- video de seguridad -->
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/seguridad.mp4" type="video/mp4">
+        </video>
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/calor.mp4" type="video/mp4">
+        </video>
+        
+        <P>Aun vez que nuestro cautín alcanza la temperatura deseada, ya podemos empezar a soldar.</P>
+        <p>Como se mencionó previamente, podemos soldar tanto en una tableta o directamente los componentes. Debido a simplicidad, primero enseñaremos como soldar en tableta.</p>
+        
+        <!-- Soldadura con tableta -->
+        <h2>Soldar en tablas pre prerforadas</h2>
+        <p>Las tablas pre perforadas cuentan con una cara con las líneas de cobre y la otra sin ellas. Es importante esto, debido que el estaño solo se pegará en el cobre.</p>
+        <img id="tabla_frente" src="img/tabla.jpeg" alt="Frente de tabla pre perforada">
+        <img if="tabla_trasera" src="img/tabla_atras.jpeg" alt="Parte trasera de tabla pre perforada">
+        <p>Ahora vamos a poner nuestros componentes en la tableta. Para este paso tomen su tiempo para que puedan quedar satisfechos con el producto final.</p>
+        <!-- Video mostrando como poner componentes -->
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/poner_componente.mp4" type="video/mp4">
+        </video>
+        <p>La siguiente parte será hacer que nuestros componentes no se vayan a caer al momento de voltear la tabla, esto lo podemos lograr doblando las patitas del otro lado de la tabla.</p>
+        <!-- video mostrando como doblar las patitas -->
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/doblar_patas.mp4" type="video/mp4">
+        </video>
+        <p>Ahora viene lo interesante y para esto necesitaremos un poco de estaño. Viendo la parte que tiene el cobre, vamos a poner la punta del cautín directo contra el cobre y solo tocaremos gentilmente el estaño contra el cobre, esto debería ser suficiente para sujetar esa parte.</p>
+        <!-- Video mostrandoc como aplicar el estaño -->
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/soldar.mp4" type="video/mp4">
+        </video>
+        <p>Repetiremos el paso anterior por cada parirá que tengamos de ese lado.</p>
+        <p>Ya que tenemos nuestros componentes soldados, retiraremos los excesos de las patitas.</p>
+        <p>¡Listo! Ya tenemos nuestro circuito en la tabla terminado, ahora solo falta probarlo.</p>
+        <!-- Video mostrando circuito funcionando -->  
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/prueba.mp4" type="video/mp4">
+        </video>
 
-        <P></P>
+        <!-- Soldadura de componentes -->
+        <h2>Soldar componentes directos</h2>
+        <p>Para esta parte, es muy recomendable usar la <i>helping hand</i> para poder tener los componentes cerca sin ponerse en peligro.</p>
+        <p>Lo recomendado es aplicar un poco de estaño a las patas para solo aplicar calor y que se unan.</p>
+        <video width="320" height="240" autoplay muted>
+            <source src="vid/soldar_suelto.mp4" type="video/mp4">
+        </video>
+        <p>Después de soldar todas las patas, probaremos igual que nuestro circuito igual como hicimos con la tabla.</p>
+
+        <!-- Comentarios finales -->
+        <h2>¡Esto es todo amigos!</h2>
+        <p>Ahora ya saben los básicos para poder soldar con cautín y estaño, sí quieres hacer cosas más complejas hagan simulaciones previas para que tengan un circuito eficiente.</p>
+        <p>La electrónica nos permite hacer volar nuestra imaginación. A continuación les dejo el diagrama eléctrico para hacer un LED que se prenda y apague al ritmo de la música.</p>
+        <img src="img/led_ritmico.jpeg">
+
     </body>
 </html>
