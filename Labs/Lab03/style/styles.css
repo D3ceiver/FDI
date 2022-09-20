@@ -8,12 +8,12 @@ body {
   }
   
   img {
-    vertical-align: middle;
+    vertical-align:auto;
   }
   
   /* Position the image container (needed to position the left and right arrows) */
   .container {
-    position: relative;
+    position:relative;
   }
   
   /* Hide the images by default */
@@ -78,10 +78,10 @@ body {
     clear: both;
   }
   
-  /* Six columns side by side */
+  /* 8 columns side by side */
   .column {
     float: left;
-    width: 16.66%;
+    width: 12.5%;
   }
   
   /* Add a transparency effect for thumnbail images */
