@@ -105,13 +105,22 @@ body {
   .disclaimer{
     background-color: red;
     text-align: center;
+    font-weight: 600;
   }
 
   #warning{
     color: yellow;
   }
 
+  #leyenda{
+    text-align: center;
+  }
+
   video{
     align-items: flex-end;
     align-items: flex-start;
+  }
+
+  .ritmo{
+    align-items: center;
   }
