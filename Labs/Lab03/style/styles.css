@@ -21,9 +21,8 @@ body {
   .mySlides {
     display: none;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    height: 450px;
+    margin-left: 25%;
+    margin-right: 25%;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
