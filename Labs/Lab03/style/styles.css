@@ -93,3 +93,12 @@ body {
   .demo:hover {
     opacity: 1;
   }
+
+  #disclaimer{
+    background-color: red;
+    text-align: center;
+  }
+
+  .warning{
+    color: yellow;
+  }
