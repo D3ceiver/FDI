@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.intro{
+    background-color: aqua;
+    width: 50%;
+    height: 20px;
+}
+.museos{
+    background-color: aquamarine;
+    height: 20px;
+    width: 25%;
+}
+.parques{
+    background-color: azure;
+    height: 20px;
+    width: 75%;
+}
+.noche{
+    background-color: beige;
+    height: 20px;
+    width: 33%;
+}
+#title{
+    text-align: center;
+    font-weight: 800;
+}
