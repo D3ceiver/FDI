@@ -6,15 +6,13 @@ img{
     width: 400px;
     height: 300px;
 }
-div{
-    width: 50%;
-}
 h2{
     text-align: center;
 }
 p{
     text-align: justify;
 }
+
 .comida{
     background-color: antiquewhite;
 }
@@ -24,6 +22,7 @@ p{
 .electro{
     background-color: #EFD593;
 }
+
 #arbol{
     align-items: flex-start;
 }
@@ -39,3 +38,120 @@ p{
 #zenea{
     align-items: flex-end;
 }
+
+.slider_diktatur{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_diktatur ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio_diktatur  20s infinite alternate;
+}
+.slider_diktatur li{
+    list-style: none;
+}
+.slider_diktatur img{
+    width: 100%;
+}
+@keyframes cambio_diktatur {
+    0% {margin-left: 0;}
+    45% {margin-left: 0;}
+
+    50% {margin-left: -100;}
+    100% {margin-left: -100;}
+}
+
+.slider_zeppelin{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_zeppelin ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio_zeppelin  20s infinite alternate;
+}
+.slider_zeppelin li{
+    list-style: none;
+}
+.slider_zeppelin img{
+    width: 100%;
+}
+@keyframes cambio_zeppelin {
+    0% {margin-left: 0;}
+    35% {margin-left: 0;}
+
+    40% {margin-left: -100;}
+    65% {margin-left: -100;}
+
+    70% {margin-left: -200;}
+    100% {margin-left: -200;}
+}
+
+.slider_electro{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_electro ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio_electro  20s infinite alternate;
+}
+.slider_electro li{
+    list-style: none;
+}
+.slider_electro img{
+    width: 100%;
+}
+@keyframes cambio_electro {
+    0% {margin-left: 0;}
+    35% {margin-left: 0;}
+
+    40% {margin-left: -100;}
+    65% {margin-left: -100;}
+
+    70% {margin-left: -200;}
+    100% {margin-left: -200;}
+}
+
+.slider_tren{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_tren ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio_tren  20s infinite alternate;
+}
+.slider_tren li{
+    list-style: none;
+}
+.slider_tren img{
+    width: 100%;
+}
+@keyframes cambio_tren {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100;}
+    45% {margin-left: -100;}
+
+    50% {margin-left: -200;}
+    70% {margin-left: -200;}
+
+    75% {margin-left: -300;}
+    100%{margin-left: -300;}
+}
+
