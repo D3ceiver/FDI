@@ -52,7 +52,7 @@ h3{
     padding: 0;
     width: 400%;
 
-    animation: cambio_diktatur  20s infinite alternate;
+    animation: cambio_diktatur 20s infinite alternate;
 }
 .slider_diktatur li{
     list-style: none;
@@ -78,7 +78,7 @@ h3{
     padding: 0;
     width: 400%;
 
-    animation: cambio_zeppelin  20s infinite alternate;
+    animation: cambio_zeppelin 20s infinite alternate;
 }
 .slider_zeppelin li{
     list-style: none;
@@ -107,7 +107,7 @@ h3{
     padding: 0;
     width: 400%;
 
-    animation: cambio_zenea  20s infinite alternate;
+    animation: cambio_zenea 20s infinite alternate;
 }
 .slider_zenea li{
     list-style: none;
@@ -117,18 +117,15 @@ h3{
 }
 @keyframes cambio_zenea {
     0% {margin-left: 0;}
-    20% {margin-left: 0;}
+    24% {margin-left: 0;}
 
     25% {margin-left: -100;}
-    40% {margin-left: -100;}
+    49% {margin-left: -100;}
 
-    45% {margin-left: -200;}
-    60% {margin-left: -200;}
+    50% {margin-left: -200;}
+    74% {margin-left: -200;}
 
-    65% {margin-left: -200;}
-    80% {margin-left: -200;}
-
-    85% {margin-left: -200;}
+    75% {margin-left: -200;}
     100% {margin-left: -200;}
 }
 
@@ -142,7 +139,7 @@ h3{
     padding: 0;
     width: 400%;
 
-    animation: cambio_electro  20s infinite alternate;
+    animation: cambio_electro 20s infinite alternate;
 }
 .slider_electro li{
     list-style: none;
@@ -171,7 +168,7 @@ h3{
     padding: 0;
     width: 400%;
 
-    animation: cambio_tren  20s infinite alternate;
+    animation: cambio_tren 20s infinite alternate;
 }
 .slider_tren li{
     list-style: none;
