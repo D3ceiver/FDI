@@ -94,6 +94,41 @@ p{
     100% {margin-left: -200;}
 }
 
+.slider_zenea{
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider_zenea ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+    animation: cambio_zenea  20s infinite alternate;
+}
+.slider_zenea li{
+    list-style: none;
+}
+.slider_zenea img{
+    width: 100%;
+}
+@keyframes cambio_zenea {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100;}
+    40% {margin-left: -100;}
+
+    45% {margin-left: -200;}
+    60% {margin-left: -200;}
+
+    65% {margin-left: -200;}
+    80% {margin-left: -200;}
+
+    85% {margin-left: -200;}
+    100% {margin-left: -200;}
+}
+
 .slider_electro{
     width: 95%;
     margin: auto;
