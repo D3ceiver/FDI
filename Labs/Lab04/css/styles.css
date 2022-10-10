@@ -8,6 +8,10 @@ h2{
 p{
     text-align: justify;
 }
+h3{
+    text-decoration: solid;
+    text-decoration-color: blue;
+}
 
 .comida{
     background-color: antiquewhite;
