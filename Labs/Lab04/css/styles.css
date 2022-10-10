@@ -8,3 +8,27 @@ img{
 div{
     width: 50%;
 }
+.comida{
+    background-color: antiquewhite;
+}
+.plaza{
+    background-color: beige;
+}
+.electro{
+    background-color: #EFD593;
+}
+#arbol{
+    align-items: flex-start;
+}
+#amma{
+    align-items: flex-start;
+}
+#bazar{
+    align-items: flex-end;
+}
+#kiosco{
+    align-items: flex-start;
+}
+#zenea{
+    align-items: flex-end;
+}
