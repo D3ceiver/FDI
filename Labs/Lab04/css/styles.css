@@ -161,12 +161,13 @@ h3{
 .slider_tren{
     width: 95%;
     margin: auto;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 .slider_tren ul{
     display: flex;
     padding: 0;
     width: 400%;
+
 
     animation: cambio_tren 20s infinite alternate;
 }
