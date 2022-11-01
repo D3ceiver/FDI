@@ -4,9 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1>Welcome to GeeksforGeeks Courses</h1>
+    <h6>Live Workshop and Online Courses!</h6>
+  
+    <div class="myProducts">
+        <div class="myProducts-gallery">
+            <img src="img/bestidor_salon_congreso_solo.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/bestidor_salon_congresos_c-pa.png"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src="img/borrego_cosmico_serio.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/edicto_aprovatorio.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/firma_titulo.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/firma_titulo_ojo_cerrado.png"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src="img/logo_tec_jugando.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/logo_tec_serio.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/Mayrin_cuernitos.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/pacheco.png"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src="img/posando_mayrin-2.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/posando_mayrin.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/posando_sin_titulo.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/posando_titulo_mijo-colado.png"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src="img/posando_titulo_mijo-positiva.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/posando_titulo_positiva.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/serio_pnl.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src="img/serio_posando.png"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+        </div>
+  
+        <div class="image-container">
+            <img id="img-Box" src="img/bestidor_salon_congreso_solo.png"
+                alt="click here">
+        </div>
+    </div>
+
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
 </body>
 </html>
