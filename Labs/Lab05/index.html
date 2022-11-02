@@ -5,50 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image gallery</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <h1>Image gallery</h1>
+    <header class="header">
+        <nav class="nav">
+            <h1>Firma titulo profesional</h1>
+        </nav>
+    </header>
   
-    <div class="myProducts">
-        <div class="myProducts-gallery">
-            <img src="img/bestidor_salon_congreso_solo.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/bestidor_salon_congresos_c-pa.png"
-                alt="click here"
-                onclick="myImageFunction(this)">
-            <img src="img/borrego_cosmico_serio.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/edicto_aprovatorio.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/firma_titulo.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/firma_titulo_ojo_cerrado.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/logo_tec_jugando.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
-            <img src="img/logo_tec_serio.png"
-                alt="click here" 
-                onclick="myImageFunction(this)">
+    <div class="row">
+        <div class="column">
+            <div class="gallery-item">
+                <img alt="foto1" src="img/bestidor_salon_congreso_solo.png" class="gallery-img"/>
+                <h2 class="gallery-title">Order in disorder</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto2" src="img/bestidor_salon_congresos_c-pa.png" class="gallery-img"/>
+                <h2 class="gallery-title">Say hi, Roverto!!</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto3" src="img/borrego_cosmico_serio.png" class="gallery-img"/>
+                <h2 class="gallery-title">Planet Puzzle</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto4" src="img/edicto_aprovatorio.png" class="gallery-img"/>
+                <h2 class="gallery-title">Rocky Time!!</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto5" src="img/edicto_aprovatorio.png" class="gallery-img"/>
+                <h2 class="gallery-title">Electronical Map (PCB)</h2>
+            </div>
         </div>
-  
-        <div class="image-container">
-            <img id="img-Box" src="img/bestidor_salon_congreso_solo.png"
-                alt="click here">
+
+        <div class="column">
+            <div class="gallery-item">
+                <img alt="foto6" src="img/firma_titulo.png" class="gallery-img"/>
+                <h2 class="gallery-title">Jack Bull</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto7" src="img/firma_titulo_ojo_cerrado.png" class="gallery-img"/>
+                <h2 class="gallery-title">Rockets and Desert</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto8" src="img/logo_tec_jugando.png" class="gallery-img"/>
+                <h2 class="gallery-title">Circuits</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto9" src="img/logo_tec_serio.png" class="gallery-img"/>
+                <h2 class="gallery-title">Look! What an arm!!</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto10" src="img/Mayrin_cuernitos.png" class="gallery-img"/>
+                <h2 class="gallery-title">More Circuits!!</h2>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="gallery-item">
+                <img alt="foto11" src="img/pacheco.png" class="gallery-img"/>
+                <h2 class="gallery-title">Simulations</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto12" src="img/posando_mayrin-2.png" class="gallery-img"/>
+                <h2 class="gallery-title">Explaining</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto13" src="img/posando_mayrin.png" class="gallery-img"/>
+                <h2 class="gallery-title">Rocket DIY</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto14" src="img/posando_sin_titulo.png" class="gallery-img"/>
+                <h2 class="gallery-title">We have pulse!!</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto15" src="img/posando_titulo_mijo-colado.png" class="gallery-img"/>
+                <h2 class="gallery-title">3, 2 and 001</h2>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="gallery-item">
+                <img alt="foto16" src="img/posando_titulo_mijo-positiva.png" class="gallery-img"/>
+                <h2 class="gallery-title">Cat's SetUp</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto17" src="img/serio_pnl.png" class="gallery-img"/>
+                <h2 class="gallery-title">Xavier</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto18" src="img/edicto_aprovatorio.png" class="gallery-img"/>
+                <h2 class="gallery-title">Forgotten</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto19" src="img/posando_sin_titulo.png" class="gallery-img"/>
+                <h2 class="gallery-title">Don't eat that Raspberry!!</h2>
+            </div>
+            <div class="gallery-item">
+                <img alt="foto20" src="img/posando_titulo_positiva.png" class="gallery-img"/>
+                <h2 class="gallery-title">The prickly trio</h2>
+            </div>
         </div>
     </div>
-
-    <script>
-        function myImageFunction(productSmallImg) {
-            var productFullImg = document.getElementById("img-Box");
-            productFullImg.src = productSmallImg.src;
-        }
-    </script>
 </body>
 </html>
