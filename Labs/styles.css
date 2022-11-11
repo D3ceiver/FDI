@@ -17,6 +17,27 @@ body{
     color: #fff;
 }
 
+a:link {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #2a7da2;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #848c90;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: #333;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 .container{
     position: relative;
     width: 100%;
