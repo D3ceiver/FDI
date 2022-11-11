@@ -17,19 +17,13 @@ section{
     background: url("/FDI/img/bg.jpg"), #999;
     background-position-x: center;
     background-size: cover;
-    animation: animateBg 25s linear infinite;
 }
 .content{
-    text-align: center;
-    position: sticky;
+    position: absolute;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
-    padding-top: 50%;
-}
-.content h1{
-    margin-bottom: 20px;
 }
 
 span{
