@@ -14,7 +14,7 @@ section{
     left: 0;
     width: 100%;
     height: 100vh;
-    background: url("/img/bg.jpg"), #999;
+    background: url("/FDI/img/bg.jpg"), #999;
     background-position-x: center;
     background-size: cover;
     animation: animateBg 25s linear infinite;
