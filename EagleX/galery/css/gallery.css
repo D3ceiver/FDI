@@ -31,3 +31,14 @@
         --row-height: 200px;
     }
 }
+
+.socials_fix{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    border: 3px solid #73AD21;
+}
+.socials_fix img{
+    height: 40px;
+}
